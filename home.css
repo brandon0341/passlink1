@@ -1,0 +1,135 @@
+body {
+    font-family: "Euclid Circ.menuar A", "Poppins";
+    font-size: 18px;
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    background: #1a2027;
+    color: white;
+  }
+  .logo{
+    position: relative;
+    left: -20%;
+    top: 30%;
+    font-size: 20px;
+    color: #ffffff9f;
+  }
+  .main{
+    position: relative;
+    top: -5%;
+    margin-left: 45%;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 4px;
+    box-shadow: rgba(224, 222, 222, 0.25) 0px 54px 55px, rgba(216, 214, 214, 0.12) 0px -12px 30px, rgba(247, 245, 245, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(222, 221, 221, 0.09) 0px -3px 5px;
+  }
+  img{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 100%;
+  }
+  .main h3{
+    font-size: 40px;
+  }
+  .main h1{
+    font-size: 70px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav {
+    width: 100%;
+    height: 40%;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 70px;
+    top: 20%;
+  }
+  
+  .menu li {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu li:hover .submenu {
+    height: 70px;
+  }
+  
+  .menu > li:hover > a {
+    color: #3e95ff;
+  }
+  
+  .menu > li:hover > a::before {
+    visibility: visible;
+    transform: scale(1);
+  }
+  
+  .submenu {
+    overflow: hidden;
+    position: absolute;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 40%;
+    background-color: #3e95ff;
+    height: 0;
+    line-height: 40px;
+    box-sizing: border-box;
+    transition: height 0.3s ease-in-out;
+  }
+  .menu li .submenu a {
+    color: #fff;
+    opacity: 0;
+    font-size: 16px;
+    transition: opacity 0.25s;
+  }
+  
+  .menu > li:hover .submenu a {
+    opacity: 1;
+  }
+  
+  .menu > li .submenu a:hover {
+    background: rgb(0 0 0 / 20%);
+  }
+  
+  .menu > li a {
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7px;
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+  }
+  
+  .menu > li > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 3px;
+    left: 0px;
+    background-color: #3e95ff;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0);
+    visibility: hidden;
+  }
