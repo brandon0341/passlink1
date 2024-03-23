@@ -2,27 +2,27 @@
 
 const att = (image) => {
     let aDiv = document.createElement("div")
-    aDiv.innerHTML = `<img class="bigP" src="/Activities/sir Arl_WS101/IMGS/${image}>`
+    aDiv.innerHTML = `<img class="bigP" src="./IMGS/${image}>`
 
     return aDiv
 }
 const bAtt = (image) => {
     let cDiv = document.createElement("div")
-    cDiv.innerHTML = `<img class="sOne" src="/Activities/sir Arl_WS101/IMGS/${image}>`
+    cDiv.innerHTML = `<img class="sOne" src="./IMGS/${image}>`
 
     return cDiv
 }
 
 const bATt = (image) => {
     let cDivO = document.createElement("div")
-    cDivO.innerHTML = `<img class="sTwo" src="/Activities/sir Arl_WS101/IMGS/${image}>`
+    cDivO.innerHTML = `<img class="sTwo" src="./IMGS/${image}>`
 
     return cDivO
 }
 
 const bATT = (image) => {
     let cDivT = document.createElement("div")
-    cDivT.innerHTML = `<img class="sThr" src="/Activities/sir Arl_WS101/IMGS/${image}>`
+    cDivT.innerHTML = `<img class="sThr" src="./IMGS/${image}>`
 
     return cDivT
 }

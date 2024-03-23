@@ -4,7 +4,7 @@ const dATT = (titleWan, paraO, btnO, paraT, btnT, paraTh, btnTh, myPIC, myPIc, m
     let dDiv = document.createElement("div")
     dDiv.innerHTML =   `<h1 class="pro">${titleWan}</h1>
                         <div class="wrapp">
-                        <img class="ba" src="/sir Arl_WS101/IMGS/${myPIC}" alt="${myPIC}">
+                        <img class="ba" src="./IMGS/${myPIC}" alt="${myPIC}">
                         <p class="one">${paraO}</p>
                         <button class="animated-button">${btnO}
                         <span></span>
@@ -12,7 +12,7 @@ const dATT = (titleWan, paraO, btnO, paraT, btnT, paraTh, btnTh, myPIC, myPIc, m
                         </button>
                         </div>
                         <div id="wrappe">
-                        <img class="bac" src="/sir Arl_WS101/IMGS/${myPIc}" alt="${myPIc}">
+                        <img class="bac" src="./IMGS/${myPIc}" alt="${myPIc}">
                         <p class="two">${paraT}</p>
                         <button class="animated-button">${btnT}
                         <span></span>
@@ -20,7 +20,7 @@ const dATT = (titleWan, paraO, btnO, paraT, btnT, paraTh, btnTh, myPIC, myPIc, m
                         </button>
                         </div>
                         <div class="wrapper">
-                        <img class="back" src="/sir Arl_WS101/IMGS/${myPic}" alt="${myPic}">
+                        <img class="back" src="./IMGS/${myPic}" alt="${myPic}">
                         <p class="tree">${paraTh}</p>
                         <button class="animated-button">${btnTh}
                         <span></span>

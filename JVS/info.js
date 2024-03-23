@@ -10,7 +10,7 @@ const upATT = (title, para, button, image) => {
                       <span></span>
                       </button>
 
-                      <img class="me" src="/sir Arl_WS101/IMGS/${image}" alt="${image}">`
+                      <img class="me" src="./IMGS/${image}" alt="${image}">`
 
     return uDiv
 }
