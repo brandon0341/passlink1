@@ -12,7 +12,7 @@ const One = {
 const Two = {
     titleO: "Projects",
     myPIC  : "roc.jpg",
-    paraW : "A spacecraft is a vehicle that is designed to fly in outer space and operate there. Spacecraft are used for a variety of purposes, including communications, Earth observation, meteorology, navigation, space colonization, planetary exploration, and transportation of humans and cargo.",
+    paraW : "A spacecraft is a vehicle that is designed to fly in outer space and operate there. Spacecraft are used for a variety of purposes, including communications, Earth observation, meteorology, navigation, space colonization and planetary exploration.",
     stBtn  : "Learn More",
     myPIc  : "ass.avif",
     paraT : "An astronaut is someone who travels in space. While the term was once reserved for military-trained professionals, recent accessibility of space travel has seen the term astronaut now used to refer to anyone traveling in a spacecraft, including civilians.",

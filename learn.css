@@ -15,7 +15,7 @@ body{
     font-size: 50px;
     font-weight: 800;
     padding: 2%;
-    left: 30%;
+    left: 33%;
     top: 7%;
     width: 40%;
     height: 20%;
@@ -29,6 +29,7 @@ body{
     width: 600px;
 }
 #accordion li{
+    margin-left: 8%;
     list-style: none;
     width: 100%;
     margin-bottom: 10px;
